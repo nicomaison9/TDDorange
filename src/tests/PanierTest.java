@@ -79,8 +79,10 @@ public class PanierTest {
 				if (p1.getBasket().get(i).getOrigine() == "Espagne" && !p1.estVide()) {
 					trouve = true;
 					assertTrue(true);
+					//true
 				}
 				assertFalse(false);
+				//false
 				
 			}
 		} catch (Exception e) {
